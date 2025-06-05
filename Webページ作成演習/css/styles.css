@@ -1,0 +1,132 @@
+:root {
+    background-color: #f5f5f5;
+}
+
+/* @import url(styles2.css); */
+
+header{
+    background-color: aquamarine;
+}
+
+header p{
+    color: blue;
+    text-align: center;
+}
+
+footer{
+    text-align: right;
+}
+
+header main footer{
+    padding: 20px 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.center-red{
+    text-align: center;
+    color: red;
+}
+
+.card{
+    background-color: white;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.card p{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+/*aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa*/
+
+a:not(.logo):hover {
+    color: #5573f5;
+    text-decoration: underline;
+}
+
+.menu {
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+nav h1 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.logo{
+    color: black;
+    text-decoration: none;
+}
+
+/*aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa*/
+
+.container {
+    display: grid;
+    grid-template-columns: 240px 1fr;
+}
+
+.container nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.video-thumbnail {
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+    background-color: #ddd;
+    border-radius: 12px;
+    margin-bottom: 12px;
+}
+
+.aside2{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+/*aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa*/
+
+.btn {
+    background: linear-gradient(
+        45deg,
+        #6a11cb,
+        #2575fc
+    );
+    padding: 15px 30px;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .25);
+    transition: transform .2s;
+}
+
+.btn a {
+    color: white;
+    text-decoration: none;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
